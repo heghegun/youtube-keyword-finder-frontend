@@ -1,9 +1,10 @@
+// app.js
 const searchBtn = document.getElementById("searchBtn");
 const keywordInput = document.getElementById("keywordInput");
 const resultsDiv = document.getElementById("results");
 
-// Gunakan environment variable dari Netlify
-const BACKEND_URL = process.env.REACT_APP_BACKEND_URL; // pastikan sudah ditambahkan di Netlify
+// URL backend Render langsung, hardcode karena plain JS tidak bisa pakai process.env
+const BACKEND_URL = "https://youtube-keyword-finder-backend.onrender.com";
 
 searchBtn.addEventListener("click", async () => {
   const keyword = keywordInput.value.trim();
