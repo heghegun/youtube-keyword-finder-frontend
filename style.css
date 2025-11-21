@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 40px auto;
+  text-align: center;
+}
+input {
+  padding: 8px;
+  width: 60%;
+}
+button {
+  padding: 8px 12px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+#results {
+  margin-top: 20px;
+  text-align: left;
+}
